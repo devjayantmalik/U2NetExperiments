@@ -1,0 +1,17 @@
+[project]
+name = "u2netexperiments"
+version = "0.1.0"
+description = "Experiments with U2Net for background removal and other ideas"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "ipywidgets>=8.1.8",
+    "lion-pytorch>=0.2.5",
+    "numpy",
+    "pillow>=12.2.0",
+    "torch>=2.5.1",
+    "tqdm>=4.66.5",
+]
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu121"
